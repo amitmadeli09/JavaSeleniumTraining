@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="NopCommerce Suite" parallel="false">
+    
+    <test name="NopCommerce Tests">
+        <classes>
+            <class name="testcases.NopCommerceTests"/>
+        </classes>
+    </test>
+
+</suite>
