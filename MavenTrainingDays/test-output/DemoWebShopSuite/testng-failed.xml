@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoWebShopSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DemoWebShopTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="url" value="https://demowebshop.tricentis.com/"/>
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="day23.DemoWebShopGroups">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+          <include name="afterClass"/>
+          <include name="logOut"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- day23.DemoWebShopGroups -->
+    </classes>
+  </test> <!-- DemoWebShopTest(failed) -->
+</suite> <!-- Failed suite [DemoWebShopSuite] -->
