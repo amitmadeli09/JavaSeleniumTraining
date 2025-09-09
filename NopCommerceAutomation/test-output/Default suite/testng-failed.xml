@@ -7,12 +7,12 @@
         <methods>
           <include name="afterClass"/>
           <include name="beforeClass"/>
+          <include name="testRegister"/>
           <include name="afterSuite"/>
           <include name="beforeTest"/>
-          <include name="testLogin"/>
           <include name="beforeSuite"/>
+          <include name="testLogin"/>
           <include name="afterTest"/>
-          <include name="testLogout"/>
         </methods>
       </class> <!-- testcases.NopCommerceTests -->
     </classes>
